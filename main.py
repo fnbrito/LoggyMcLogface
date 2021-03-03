@@ -155,11 +155,11 @@ def set_config():
 
     config['DEFAULT'] = {
         'file': 'log.txt',
-        'host': '127.0.0.1',
-        'port': 55555,
+        'host': '0.0.0.0',
+        'port': 5000,
         'level': '6',
         'abuse_protection': 'False',
-        'override_timestamp': 'True',
+        'override_timestamp': 'False',
         'forced_format': 'False',
         'force_complete': 'True',
         'force_date': 'True',
